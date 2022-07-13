@@ -24,6 +24,14 @@ export const Container = styled.div`
       font-size: 2rem;
       font-weight: 500;
       line-height: 3rem;
+
+      &.deposit {
+        color: var(--green);
+      }
+
+      &.withdraw {
+        color: var(--red);
+      }
     }
 
     &.hightlight-background {
